@@ -80,6 +80,12 @@ For Windows download installer from
  The tesseract will be install into 
  
        C:\Program Files\Tesseract-OCR
+       
+Remark :
+--------
+        Add in System Variables PATH this link
+           
+        C:\Program Files\Tesseract-OCR
  
  Step 2
  ------
@@ -139,7 +145,11 @@ The standalone iMamagick will be reside into
 
           C:\Program Files\ImageMagick-7.0.10-Q16
 
-
+Remark :
+--------
+        Check if is added in System Variables PATH this link:
+        
+        C:\Program Files\ImageMagick-7.0.10-Q16
 Step 5
 -------
 
