@@ -510,6 +510,8 @@ cmd.exe
 c:\Users\{User}> cd \tesseract-python
 
 - a) check detection text from jpg image file(as natural scene) - for STEPS 1-3:
+     
+the image file can see in browser at file:///C:/tesseract-python/sample1.jpg
 
 c:\tesseract-python> python image_example.py 
 
@@ -518,6 +520,8 @@ c:\tesseract-python> python image_example.py
             lazy dogs!
 
 - b) check detection text from pdf file(as natural scene) - for STEPS 4-8:
+
+the image file can see in browser at file:///C:/tesseract-python/sample2.pdf
 
 c:\tesseract-python> python pdf_example.py           
 
