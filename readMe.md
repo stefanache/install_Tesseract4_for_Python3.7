@@ -383,7 +383,7 @@ Remark :
 --------
        - Check if is added in System Variables PATH this link:
         
-        C:\Program Files\ImageMagick-7.0.10-Q16
+                                        C:\Program Files\ImageMagick-6.9.11-Q16
         
         -Also can add new variable:
         
