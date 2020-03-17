@@ -170,19 +170,19 @@ c:\> cd tesseract-python
 
 c:\tesseract-python> dir
 
- Volume in drive C has no label.
- Volume Serial Number is 32EF-A4A7
+             Volume in drive C has no label.
+             Volume Serial Number is 32EF-A4A7
 
- Directory of C:\tesseract-python
+             Directory of C:\tesseract-python
 
-03/17/2020  08:31 AM    <DIR>          .
-03/17/2020  08:31 AM    <DIR>          ..
-03/17/2020  08:31 AM               148 image_example.py
-03/17/2020  08:31 AM                54 output.txt
-03/17/2020  08:31 AM               510 pdf_example.py
-03/17/2020  08:31 AM             1,028 README.md
-03/17/2020  08:31 AM            38,022 sample1.jpg
-03/17/2020  08:31 AM            28,983 sample2.pdf
-               6 File(s)         68,745 bytes
-               2 Dir(s)  32,357,650,432 bytes free
+            03/17/2020  08:31 AM    <DIR>          .
+            03/17/2020  08:31 AM    <DIR>          ..
+            03/17/2020  08:31 AM               148 image_example.py
+            03/17/2020  08:31 AM                54 output.txt
+            03/17/2020  08:31 AM               510 pdf_example.py
+            03/17/2020  08:31 AM             1,028 README.md
+            03/17/2020  08:31 AM            38,022 sample1.jpg
+            03/17/2020  08:31 AM            28,983 sample2.pdf
+                           6 File(s)         68,745 bytes
+                           2 Dir(s)  32,357,650,432 bytes free
 
