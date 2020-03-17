@@ -83,9 +83,9 @@ For Windows download installer from
        
 Remark :
 --------
-        Add in System Variables PATH this link
+        Add in System Variables PATH this link:
            
-        C:\Program Files\Tesseract-OCR
+        C:\Program Files\Tesseract-OCR       
  
  Step 2
  ------
@@ -150,6 +150,12 @@ Remark :
         Check if is added in System Variables PATH this link:
         
         C:\Program Files\ImageMagick-7.0.10-Q16
+        
+        Also can add new variable:
+        
+        MAGICK_HOME = C:\Program Files\ImageMagick-7.0.10-Q16
+        
+        
 Step 5
 -------
 
