@@ -196,6 +196,18 @@ c:\tesseract-python> dir
                            6 File(s)         68,745 bytes
                            2 Dir(s)  32,357,650,432 bytes free
 
+c:\tesseract-python> type image_example.py
+
+            from PIL import Image
+            import pytesseract
+
+            im = Image.open("sample1.jpg")
+
+            text = pytesseract.image_to_string(im, lang = 'eng')
+
+            print(text)
+
+
 So now we can run the samples:
 
 cmd.exe
