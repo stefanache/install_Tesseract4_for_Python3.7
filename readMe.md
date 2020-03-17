@@ -207,5 +207,6 @@ c:\tesseract-python> python image_example.py
             The quick brown fox
             jumped over the 5
             lazy dogs!
+            
 c:\tesseract-python> python pdf_example.py           
 
