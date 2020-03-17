@@ -130,7 +130,9 @@ Step 4
 
 Install imagemagick using one installer.
 
-ImageMagick Version 7 is a very recent major release. It'll take some time for the community behind wand (and other bindings) to update core libraries.
+ImageMagick Version 7 is a very recent major release. 
+
+It'll take some time for the community behind wand (and other bindings) to update core libraries.
 
 For now, you'll have to install the last release of Version 6 (ImageMagick-6.9.8-9-Q16-x64-dll.exe) from http://www.imagemagick.org/download/binaries/
 
