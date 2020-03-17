@@ -1,7 +1,17 @@
 Hi,
 
-About
-------
+I intend to follow this tutorial
+      https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
+      
+For that must to have
+  Python 3.7
+  OpenCV 4
+  Tesseract
+  ....
+So need to have installed the Tesseract ...
+
+About Tesseract
+------------------
 
 The Tesseract OCR engine has been around since the 1980s. 
 As of 2018, it now includes built-in deep learning capability making it a robust OCR tool (just keep in mind that no OCR system is perfect). 
@@ -12,6 +22,10 @@ Ref by:
       https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
       https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
 
+
+The Tesseract used for extract text from image file or/and from pdf file.
+
+So it is detectror of text.
 
 
 Before at all:
@@ -55,6 +69,120 @@ For Windows download installer from
  
       tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe (64 bit) 
   
- because and python is for 64 bits.
+ because and python is for 64 bits(w64).
  
+ The download will be doned into C:\Users\{User}\Downloads 
  
+ After download click on the installer to run it:
+ 
+       tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe
+       
+ The tesseract will be install into 
+ 
+       C:\Program Files\Tesseract-OCR
+ 
+ Step 2
+ ------
+ 
+ To can call Tesseract into Python must to have one binding tool like pytesseract.
+ 
+ So, install python binding for tesseract, pytesseract, using this pip command:
+ 
+          C:\Users\{User}> python -m pip install pytesseract
+
+Step 3
+--------
+Also install image processing library in python, pillow using this pip command:
+           C:\Users\{User}> python -m pip install pillow
+
+
+
+
+If want to work only images is enought to have pytesseract and pillow.
+
+But if you want to work with pdf files need to install and other two components:
+
+            - Imagemagick (standalone system with various api interfaces for Python,PhP...)
+            
+            and its bidding tool for python
+
+            - wand
+            
+Remark: So is simmilar with previous installment:
+
+           - tesseract-ocr (standalone system with various api interfaces for Python,PhP...)
+           
+           and its imagging tool for python
+           
+            - pillow
+
+For working with pdf files:
+----------------------------
+
+Step 4
+-------
+
+Install imagemagick using one installer.
+You find Imagemagick installer from
+
+           https://imagemagick.org/script/download.php
+
+find at Windows Binary Release the installer named:
+ 
+          ImageMagick-7.0.10-1-Q16-x64-dll.exe
+          
+The download will be doned into C:\Users\{User}\Downloads 
+
+After download then run this installer of Imagemagick
+
+The standalone iMamagick will be reside into 
+
+          C:\Program Files\ImageMagick-7.0.10-Q16
+
+
+Step 5
+-------
+
+Install python binding for imagemagick, wand, using this pip command:
+
+          C:\Users\{User}> python -m pip install wand
+ 
+ Step 6
+ ------
+ 
+Now must to use these using samples from github's tutorial link:
+
+     https://github.com/nikhilkumarsingh/tesseract-python
+     
+For that need to have git installed from     
+
+      https://git-scm.com/downloads
+      
+After that use it to download :
+
+cmd.exe
+
+c:\Users\{User}> cd \
+
+c:\> git clone https://github.com/nikhilkumarsingh/tesseract-python
+
+c:\> cd tesseract-python
+
+c:\tesseract-python> dir
+
+ Volume in drive C has no label.
+ Volume Serial Number is 32EF-A4A7
+
+ Directory of C:\tesseract-python
+
+03/17/2020  08:31 AM    <DIR>          .
+03/17/2020  08:31 AM    <DIR>          ..
+03/17/2020  08:31 AM               148 image_example.py
+03/17/2020  08:31 AM                54 output.txt
+03/17/2020  08:31 AM               510 pdf_example.py
+03/17/2020  08:31 AM             1,028 README.md
+03/17/2020  08:31 AM            38,022 sample1.jpg
+03/17/2020  08:31 AM            28,983 sample2.pdf
+               6 File(s)         68,745 bytes
+               2 Dir(s)  32,357,650,432 bytes free
+
