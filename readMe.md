@@ -51,7 +51,7 @@ For Windows download installer from
 
       https://github.com/UB-Mannheim/tesseract/wiki
       
- I prefferd this
+ I preffered this
  
       tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe (64 bit) 
   
