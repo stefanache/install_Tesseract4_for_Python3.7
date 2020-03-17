@@ -163,9 +163,8 @@ Then test it like in https://imagemagick.org/script/download.php
 
             cmd.exe
 
-            C:\Users\{user}>magick logo: logo.gif
-            C:\Users\{user}>magick identify logo.gif
-            C:\Users\{user}>magick logo.gif win:
+            C:\Users\{user}>convert logo: -resize '100' wiz1.png
+
 
 If need to have some informationa about Visual Studio do that:
                   From Windows Menu Go
