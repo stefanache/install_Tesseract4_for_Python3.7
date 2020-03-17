@@ -531,7 +531,10 @@ c:\tesseract-python> python pdf_example.py
 
 
 Remark:
-           Tesseract-OCR +PyTesseract+Pillow(steps1-3) can work in pair with other instead of 
-           ImageMagic+Wand.
+           Tesseract-OCR +PyTesseract+Pillow(steps1-3) can work in pair with other instead of ImageMagic+Wand.
+           
            For example for pdf OCR can use pdf2image:
+           
            https://www.geeksforgeeks.org/python-reading-contents-of-pdf-using-ocr-optical-character-recognition/
+           
+           If want more information about pdf2image read from     https://pypi.org/project/pdf2image/
