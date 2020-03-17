@@ -633,4 +633,5 @@ Remark:
                   # Close the file after writing all the text. 
                   f.close()  
 
-One big problem appear linked of OCR-accurancy(precision) but about it will discuss in other new repository
+One big problem appear linked of OCR-accurancy(precision) but about it will discuss in other new repository.
+One question remain which robust algorithm need for great OCR precision?
