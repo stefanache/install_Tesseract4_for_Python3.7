@@ -262,8 +262,6 @@ c:\tesseract-python> type pdf_example.py
 
             print(recognized_text)
 
-=======================================================================================================================================
-
 
 So now we can run the samples:
 
