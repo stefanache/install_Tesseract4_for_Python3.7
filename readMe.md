@@ -144,6 +144,12 @@ After download then run this installer of Imagemagick
 The standalone iMamagick will be reside into 
 
           C:\Program Files\ImageMagick-7.0.10-Q16
+          
+Then test it like in https://imagemagick.org/script/download.php
+
+            magick logo: logo.gif
+            magick identify logo.gif
+            magick logo.gif win:
 
 Remark :
 --------
