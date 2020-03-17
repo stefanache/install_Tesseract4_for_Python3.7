@@ -39,7 +39,10 @@ I already have installed Python 3.7.7 on my windows 10 Pro (32 bits):
   
 Python 3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 11:52:54) [MSC v.1900 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> CTRL+Z
+>>> import cv2
+>>> cv2.__version__
+'4.0.0'
+>>> quit()
  
  
 I intend to install Tesseract 4 for my Python 3.7.7
