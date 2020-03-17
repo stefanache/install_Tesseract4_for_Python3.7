@@ -83,7 +83,7 @@ For Windows download installer from
        
 Remark :
 --------
-        Add in System Variables PATH this link:
+        -Add in System Variables PATH this link:
            
         C:\Program Files\Tesseract-OCR       
  
@@ -147,15 +147,22 @@ The standalone iMamagick will be reside into
 
 Remark :
 --------
-        Check if is added in System Variables PATH this link:
+       - Check if is added in System Variables PATH this link:
         
         C:\Program Files\ImageMagick-7.0.10-Q16
         
-        Also can add new variable:
+        -Also can add new variable:
         
         MAGICK_HOME :                   C:\Program Files\ImageMagick-7.0.10-Q16
         
         WAND_MAGICK_LIBRARY_SUFFIX :   -7.Q16;-7.Q16HDRI;.Q16HDRI;.Q16
+        
+        -After that you then can ceheck with:
+        
+            C:\Users\{user}>set MAGIC_HOME
+            
+            MAGIC_HOME=C:\Program Files\ImageMagick-7.0.10-Q16
+
 Step 5
 -------
 
@@ -169,11 +176,11 @@ You can find documentation for wand at this link:
  
  Remark:
  --------
-        Is possible to help you this documentation:
+        -Is possible to help you this documentation:
         
         http://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-on-windows
         
- For testing use the command:
+        -For testing use the command:
  
               C:\Users\{user}> # Test installation
               C:\Users\{user}> python -mwand.version
