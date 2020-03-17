@@ -138,19 +138,22 @@ For now, you'll have to install the last release of Version 6 (ImageMagick-6.9.8
 
 find at Windows Binary Release the installer named:
  
-          ImageMagick-6.9.8-9-Q16-x64-dll.exe
+          ImageMagick-6.9.11-1-Q16-x64-dll.exe
           
+You can download directly by  http://www.imagemagick.org/download/binaries/ImageMagick-6.9.11-1-Q16-x64-dll.exe
+
 The download will be doned into C:\Users\{User}\Downloads 
 
 After download then run this installer of Imagemagick
 
-The standalone ImageMagick 6.9.8-9(Q16) will be reside into 
+The standalone ImageMagick 6.9.11-1(Q16) will be reside into 
 
-          C:\Program Files\ImageMagick-6.9.8-9-Q16
+          C:\Program Files\ImageMagick-6.9.11-1-Q16
           
  You can see and identify that:
  
           Major version number:   6
+          Minor version number:   9.11.1
           Magick Quantum:         Q16
           Optional HDRI-Support:  blanck(not exist!)
           
