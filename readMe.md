@@ -141,9 +141,15 @@ The download will be doned into C:\Users\{User}\Downloads
 
 After download then run this installer of Imagemagick
 
-The standalone iMamagick will be reside into 
+The standalone iMageMagick 7.0.10 (Q16) will be reside into 
 
           C:\Program Files\ImageMagick-7.0.10-Q16
+          
+ You can see and identify that:
+ 
+          Major version number:   7
+          Magick Quantum:         Q16
+          Optional HDRI-Support:  blanck(not exist!)
           
 Then test it like in https://imagemagick.org/script/download.php
 
