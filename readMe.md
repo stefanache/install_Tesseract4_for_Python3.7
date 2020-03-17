@@ -41,3 +41,20 @@ For that I use/follow  this tutorial:
 
      https://github.com/nikhilkumarsingh/tesseract-python
 
+
+Step 1
+-------
+
+Install Tesseract-OCR as standalone system which have api interface for Python,PhP...
+
+For Windows download installer from 
+
+      https://github.com/UB-Mannheim/tesseract/wiki
+      
+ I prefferd this
+ 
+      tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe (64 bit) 
+  
+ because and python is for 64 bits.
+ 
+ 
