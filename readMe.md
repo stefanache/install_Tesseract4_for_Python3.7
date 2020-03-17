@@ -169,7 +169,13 @@ Install python binding for imagemagick, wand, using this pip command:
         
         http://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-on-windows
         
-        
+ For testing use the command:
+ 
+              C:\Users\{user}> # Test installation
+              C:\Users\{user}> python -mwand.version
+              0.5.9
+ 
+ 
  Step 6
  ------
  
