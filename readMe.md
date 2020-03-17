@@ -269,11 +269,15 @@ cmd.exe
 
 c:\Users\{User}> cd \tesseract-python
 
+- a) check detection text from jpg image file(as natural scene) - for STEPS 1-3:
+
 c:\tesseract-python> python image_example.py 
 
             The quick brown fox
             jumped over the 5
             lazy dogs!
-            
+
+- b) check detection text from pdf file(as natural scene) - for STEPS 4-8:
+
 c:\tesseract-python> python pdf_example.py           
 
