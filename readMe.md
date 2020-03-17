@@ -157,7 +157,8 @@ If need to have some informationa about Visual Studio do that:
                   From Windows Menu Go
                   In Visual Studio, then Tab 'Help'-> 'About Microsoft Visual Studio' should give you the desired infos.
                   
-                        I have Microsoft Visual C++ 2017
+                  I have Microsoft Visual C++ 2017 -see info copied:
+                  
                         Microsoft Visual Studio Community 2017 
                         Version 15.9.4
                         VisualStudio.15.Release/15.9.4+28307.222
