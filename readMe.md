@@ -153,9 +153,9 @@ Remark :
         
         Also can add new variable:
         
-        MAGICK_HOME = C:\Program Files\ImageMagick-7.0.10-Q16
+        MAGICK_HOME :                   C:\Program Files\ImageMagick-7.0.10-Q16
         
-        
+        WAND_MAGICK_LIBRARY_SUFFIX :   -7.Q16;-7.Q16HDRI;.Q16HDRI;.Q16
 Step 5
 -------
 
