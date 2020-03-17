@@ -196,3 +196,16 @@ c:\tesseract-python> dir
                            6 File(s)         68,745 bytes
                            2 Dir(s)  32,357,650,432 bytes free
 
+So now we can run the samples:
+
+cmd.exe
+
+c:\Users\{User}> cd \tesseract-python
+
+c:\tesseract-python> python image_example.py 
+
+            The quick brown fox
+            jumped over the 5
+            lazy dogs!
+c:\tesseract-python> python pdf_example.py           
+
