@@ -387,15 +387,16 @@ Remark :
         
         -Also can add new variable:
         
-        MAGICK_HOME :                   C:\Program Files\ImageMagick-7.0.10-Q16
+        MAGICK_HOME :                   C:\Program Files\ImageMagick-6.9.11-1-Q16
         
-        WAND_MAGICK_LIBRARY_SUFFIX :   -7.Q16;-7.Q16HDRI;.Q16HDRI;.Q16
+        and optional if have installed HDRI then must to add(not is my case!):
+        WAND_MAGICK_LIBRARY_SUFFIX :   -6.Q16;-6.Q16HDRI;.Q16HDRI;.Q16
         
         -After that you then can ceheck with:
         
             C:\Users\{user}>set MAGIC_HOME
             
-            MAGIC_HOME=C:\Program Files\ImageMagick-7.0.10-Q16
+            MAGIC_HOME=C:\Program Files\ImageMagick-6.9.11-1-Q16
 
 Step 5
 -------
