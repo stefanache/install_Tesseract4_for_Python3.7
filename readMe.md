@@ -129,25 +129,28 @@ Step 4
 -------
 
 Install imagemagick using one installer.
-You find Imagemagick installer from
 
-           https://imagemagick.org/script/download.php
+ImageMagick Version 7 is a very recent major release. It'll take some time for the community behind wand (and other bindings) to update core libraries.
+
+For now, you'll have to install the last release of Version 6 (ImageMagick-6.9.8-9-Q16-x64-dll.exe) from http://www.imagemagick.org/download/binaries/
+
+           http://www.imagemagick.org/download/binaries/
 
 find at Windows Binary Release the installer named:
  
-          ImageMagick-7.0.10-1-Q16-x64-dll.exe
+          ImageMagick-6.9.8-9-Q16-x64-dll.exe
           
 The download will be doned into C:\Users\{User}\Downloads 
 
 After download then run this installer of Imagemagick
 
-The standalone iMageMagick 7.0.10 (Q16) will be reside into 
+The standalone ImageMagick 6.9.8-9(Q16) will be reside into 
 
-          C:\Program Files\ImageMagick-7.0.10-Q16
+          C:\Program Files\ImageMagick-6.9.8-9-Q16
           
  You can see and identify that:
  
-          Major version number:   7
+          Major version number:   6
           Magick Quantum:         Q16
           Optional HDRI-Support:  blanck(not exist!)
           
