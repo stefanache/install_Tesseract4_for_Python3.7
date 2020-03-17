@@ -539,7 +539,7 @@ Remark:
            
            If want more information about pdf2image read from     https://pypi.org/project/pdf2image/
            
-           For pdf2image need to have poppler(because SO is Windoews):
+           For pdf2image need to have poppler(because my OS is Windows):
            Download the poppler: from http://blog.alivate.com.au/poppler-windows/poppler-0.68.0_x86
            and extract it in new directory called C:\poppler_068_0_x86
            then go to edit system variables and add new entry in path C:\poppler_068_0_x86\bin
