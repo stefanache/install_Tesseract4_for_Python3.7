@@ -42,7 +42,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
       >>> import cv2
       >>> cv2.__version__
-      '4.0.0'
+      '4.2.0'
       >>> quit()
  
  
