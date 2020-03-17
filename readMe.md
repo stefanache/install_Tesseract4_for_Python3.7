@@ -399,6 +399,8 @@ Install python binding for imagemagick, wand, using this pip command:
 You can find documentation for wand at this link:
 
           http://docs.wand-py.org/en/0.5.9/
+          
+          https://github.com/emcconville/wand
  
  Remark:
  --------
