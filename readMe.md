@@ -529,3 +529,9 @@ the image file can see in browser at file:///C:/tesseract-python/sample2.pdf
 
 c:\tesseract-python> python pdf_example.py           
 
+
+Remark:
+           Tesseract-OCR +PyTesseract+Pillow(steps1-3) can work in pair with other instead of 
+           ImageMagic+Wand.
+           For example for pdf OCR can use pdf2image:
+           https://www.geeksforgeeks.org/python-reading-contents-of-pdf-using-ocr-optical-character-recognition/
