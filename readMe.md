@@ -150,7 +150,7 @@ After download then run this installer of Imagemagick
 
 The standalone ImageMagick 6.9.11-1(Q16) will be reside into 
 
-          C:\Program Files\ImageMagick-6.9.11-1-Q16
+          C:\Program Files\ImageMagick-6.9.11-Q16
           
  You can see and identify that:
  
@@ -387,7 +387,7 @@ Remark :
         
         -Also can add new variable:
         
-        MAGICK_HOME :                   C:\Program Files\ImageMagick-6.9.11-1-Q16
+        MAGICK_HOME :                   C:\Program Files\ImageMagick-6.9.11-Q16
         
         and optional if have installed HDRI then must to add(not is my case!):
         WAND_MAGICK_LIBRARY_SUFFIX :   -6.Q16;-6.Q16HDRI;.Q16HDRI;.Q16
@@ -396,7 +396,7 @@ Remark :
         
             C:\Users\{user}>set MAGIC_HOME
             
-            MAGIC_HOME=C:\Program Files\ImageMagick-6.9.11-1-Q16
+            MAGIC_HOME=C:\Program Files\ImageMagick-6.9.11-Q16
 
 Step 5
 -------
