@@ -147,9 +147,11 @@ The standalone iMamagick will be reside into
           
 Then test it like in https://imagemagick.org/script/download.php
 
-            magick logo: logo.gif
-            magick identify logo.gif
-            magick logo.gif win:
+            cmd.exe
+
+            C:\Users\{user}>magick logo: logo.gif
+            C:\Users\{user}>magick identify logo.gif
+            C:\Users\{user}>magick logo.gif win:
 
 Remark :
 --------
