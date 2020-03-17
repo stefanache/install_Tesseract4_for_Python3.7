@@ -162,6 +162,10 @@ Step 5
 Install python binding for imagemagick, wand, using this pip command:
 
           C:\Users\{User}> python -m pip install wand
+          
+You can find documentation for wand at this link:
+
+          http://docs.wand-py.org/en/0.5.9/
  
  Remark:
  --------
