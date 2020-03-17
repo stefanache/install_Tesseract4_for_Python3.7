@@ -396,6 +396,10 @@ Remark :
             C:\Users\{user}>set MAGIC_HOME
             
             MAGIC_HOME=C:\Program Files\ImageMagick-6.9.11-Q16
+            
+        -You can find a good documentation(CLI interface)using Browser address:
+        
+            file:///C:/Program%20Files/ImageMagick-6.9.11-Q16/index.html
 
 Step 5
 -------
