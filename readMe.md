@@ -3,7 +3,7 @@ Hi,
 I intend to follow this tutorial
       https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
       
-For that must to have
+Before for that must to have
   Python 3.7
   OpenCV 4
   Tesseract
